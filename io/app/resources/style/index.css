@@ -1,0 +1,28 @@
+
+/* purgecss start ignore */
+
+@import url('./utils.css');
+
+@tailwind base;
+
+@tailwind components;
+
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+
+ }
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+
+ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
+/* purgecss end ignore */
+
+@tailwind utilities;
