@@ -1,4 +1,5 @@
 oldguard
 .theOldGuard
-.next
 node_modules
+.next
+.vscode

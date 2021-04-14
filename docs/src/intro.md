@@ -18,3 +18,6 @@ This is the createChinaApp cli tool
 7. Create A cloud flag to check if cloud cli
 8. Clean up code
 9. Manipulate from Browser
+
+
+[Generated With](https://rust-lang.github.io/mdBook/index.html)

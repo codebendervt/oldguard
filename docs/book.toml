@@ -5,4 +5,33 @@ multilingual = false
 src = "src"
 title = "Sauveur Studios"
 
+[output.html]
+curly-quotes = true
+mathjax-support = false
+copy-fonts = true
+google-analytics = "G-F1WVF5JMD2"
+no-section-label = false
+git-repository-url = "https://github.com/sauveurXrawk/studio"
+git-repository-icon = "fa-github"
+
+
+[output.html.print]
+enable = true
+
 [output.html.playground]
+editable = false
+copyable = true
+copy-js = true
+line-numbers = false
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
