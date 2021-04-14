@@ -2,48 +2,10 @@
 # theOldGuard
 This is the createChinaApp cli tool
 
-# Setup
+`git clone https://github.com/sauveurXrawk/studio.git ./oldguard`
 
-> Note this is best used on a linux enviroment
-### Requirements 
-
-The Deno runtime is required to run the old guard
-Linux
-`curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL=/usr/local sh`
-Windows
-`choco install deno`
-
-To learn more about [Deno](https://deno.land/).   
-
-
- ### Lets begin
- This is a toolchain to setup and manage your software development
-
-- need to have an initialized git repository
-Install Deno Extension
-[Deno Extension](https://www.codenewbie.org/podcast/how-to-harness-privilege-to-create-equitable-design). 
-
-
+[documentation](https://studio.sauveur.cloud/)
 > This tool is still in development
-        
-## To Create A SPA run _best on linux_
-        
-`deno run --allow-run oldguard/index.ts  spa `
-which will then create a client folder with the china framework app created, and developed on parse and react
-so
-`cd client\client `
-and run
-`npm install npm start`
-
-## To Create A Template
-`deno run --allow-run oldguard/index.ts  template {subfoldername} {foldername} {filetype} {templatename}`
-
-`deno run --allow-run oldguard/index.ts  template server page strandard home`
-[{filetype}](./io/temp/templates)
-` deno run --allow-run --allow-read --allow-env oldguard/index.ts local app `
-
-## To Create A App run 
-
 
 ### ToDo
 1. create a add to client new remote for purposes of seperating the tool and the app

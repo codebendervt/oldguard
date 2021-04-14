@@ -19,7 +19,7 @@ const app = async () => {
             //await Deno.create(".gitmodules");
             //await Deno.chmod(".gitmodules",0o777)
             await getList(`${directory}/resources`)
-            await sdk.commandGit('submodule',['add','https://github.com/sauveurXrawk/bookish-octo-memory.git','./components'])
+            // await sdk.commandGit('submodule',['add','https://github.com/sauveurXrawk/bookish-octo-memory.git','./components'])
              
 
       
