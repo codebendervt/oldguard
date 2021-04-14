@@ -4,3 +4,5 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Sauveur Studios"
+
+[output.html.playground]

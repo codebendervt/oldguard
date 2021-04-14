@@ -9,8 +9,8 @@ const template = async () => {
 
     //ask input
 
-    let main = await prompt('Enter main folder')
-    let sub = await prompt('Enter Sub Folder')
+    let main = await prompt('Enter main folder(leave blank for root)')
+    let sub = await prompt('Enter Sub Folder(leave blank for root)')
     let temp = await prompt('Enter Template Name')
     let name = await prompt('Enter File Name')
 
