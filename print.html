@@ -97,7 +97,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">2.</strong> Chapter 1</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="intro.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li class="chapter-item expanded "><a href="setup.html"><strong aria-hidden="true">2.</strong> Setup</a></li><li class="chapter-item expanded "><a href="chapter_1.html"><strong aria-hidden="true">3.</strong> Chapter 1</a></li><li class="chapter-item expanded "><a href="chapter_2.html"><strong aria-hidden="true">4.</strong> Chapter 2</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -168,6 +168,22 @@
                         <p><img src="banner.png" alt="The Old Guard Logo" /></p>
 <h1 id="theoldguard"><a class="header" href="#theoldguard">theOldGuard</a></h1>
 <p>This is the createChinaApp cli tool</p>
+<p><code>git clone https://github.com/sauveurXrawk/studio.git ./oldguard</code></p>
+<blockquote>
+<p>This tool is still in development</p>
+</blockquote>
+<h3 id="todo"><a class="header" href="#todo">ToDo</a></h3>
+<ol>
+<li>create a add to client new remote for purposes of seperating the tool and the app</li>
+<li>a hook file generator based on it being the most used to start a page.</li>
+<li>a components module for the components</li>
+<li>create a push to vercel for deployment purposes. !still thinking about it </li>
+<li>a app template for SPA</li>
+<li>packaging this in npm for ease of use maybe for now just cloning works(creating more easy way to pull cli)</li>
+<li>Create A cloud flag to check if cloud cli</li>
+<li>Clean up code</li>
+<li>Manipulate from Browser</li>
+</ol>
 <h1 id="setup"><a class="header" href="#setup">Setup</a></h1>
 <blockquote>
 <p>Note this is best used on a linux enviroment</p>
@@ -186,9 +202,9 @@ Windows
 Install Deno Extension
 <a href="https://www.codenewbie.org/podcast/how-to-harness-privilege-to-create-equitable-design">Deno Extension</a>. </li>
 </ul>
-<blockquote>
-<p>This tool is still in development</p>
-</blockquote>
+<h1 id="chapter-1-apps"><a class="header" href="#chapter-1-apps">Chapter 1 Apps</a></h1>
+<h2 id="env-file"><a class="header" href="#env-file">Env File</a></h2>
+<p><a href="https://www.notion.so/sauveurhq/Sauveur-Studio-920076bb27794c88b23c720c651e9c7f#45559820076642fe9bd2d6ed646558d8">Download</a></p>
 <h2 id="to-create-a-spa-run-best-on-linux"><a class="header" href="#to-create-a-spa-run-best-on-linux">To Create A SPA run <em>best on linux</em></a></h2>
 <p><code>deno run --allow-run oldguard/index.ts  spa </code>
 which will then create a client folder with the china framework app created, and developed on parse and react
@@ -196,25 +212,13 @@ so
 <code>cd client\client </code>
 and run
 <code>npm install npm start</code></p>
+<h2 id="to-create-a-app-run"><a class="header" href="#to-create-a-app-run">To Create A App run</a></h2>
+<p><code>deno run --allow-run --allow-read --allow-env oldguard/index.ts local app</code></p>
+<h1 id="chapter-2-templates"><a class="header" href="#chapter-2-templates">Chapter 2 Templates</a></h1>
 <h2 id="to-create-a-template"><a class="header" href="#to-create-a-template">To Create A Template</a></h2>
 <p><code>deno run --allow-run oldguard/index.ts  template {subfoldername} {foldername} {filetype} {templatename}</code></p>
 <p><code>deno run --allow-run oldguard/index.ts  template server page strandard home</code>
-<a href="./io/temp/templates">{filetype}</a>
-<code>deno run --allow-run --allow-read --allow-env oldguard/index.ts local app</code></p>
-<h2 id="to-create-a-app-run"><a class="header" href="#to-create-a-app-run">To Create A App run</a></h2>
-<h3 id="todo"><a class="header" href="#todo">ToDo</a></h3>
-<ol>
-<li>create a add to client new remote for purposes of seperating the tool and the app</li>
-<li>a hook file generator based on it being the most used to start a page.</li>
-<li>a components module for the components</li>
-<li>create a push to vercel for deployment purposes. !still thinking about it </li>
-<li>a app template for SPA</li>
-<li>packaging this in npm for ease of use maybe for now just cloning works(creating more easy way to pull cli)</li>
-<li>Create A cloud flag to check if cloud cli</li>
-<li>Clean up code</li>
-<li>Manipulate from Browser</li>
-</ol>
-<h1 id="chapter-1"><a class="header" href="#chapter-1">Chapter 1</a></h1>
+<a href="./io/temp/templates">{filetype}</a></p>
 
                     </main>
 
