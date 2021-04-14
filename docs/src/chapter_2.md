@@ -12,6 +12,9 @@ the template name : 'app/next.config'
 ### pages template
 the app template name : 'layout/app' 
 
+### hook template
+the hook template : 'hook'
+
 ## To Create A Template Expired
 `deno run --allow-run oldguard/index.ts  template {subfoldername} {foldername} {filetype} {templatename}`
 
