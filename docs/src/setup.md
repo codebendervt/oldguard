@@ -13,6 +13,8 @@ Windows
 To learn more about [Deno](https://deno.land/).   
 
 
+[Azure functions for API](https://docs.microsoft.com/en-us/azure/static-web-apps/add-api) 
+
  ### Lets begin
  This is a toolchain to setup and manage your software development
 
