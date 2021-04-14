@@ -138,6 +138,10 @@
                         </a>
                         
                         
+                        <a href="https://github.com/sauveurXrawk/studio" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
                     </div>
                 </div>
 
@@ -183,6 +187,7 @@
 <li>Clean up code</li>
 <li>Manipulate from Browser</li>
 </ol>
+<p><a href="https://rust-lang.github.io/mdBook/index.html">Generated With</a></p>
 <h1 id="setup"><a class="header" href="#setup">Setup</a></h1>
 <blockquote>
 <p>Note this is best used on a linux enviroment</p>
@@ -218,11 +223,11 @@ and run
 <p><code>npm run tool -- template</code></p>
 <h2 id="nextconfigjs-template"><a class="header" href="#nextconfigjs-template">next.config.js template</a></h2>
 <h3 id="deploy-to-azure-static-web-app"><a class="header" href="#deploy-to-azure-static-web-app">Deploy to Azure Static Web App</a></h3>
-<p>the template name : 'app/next.config' </p>
+<p>the template name : ‘app/next.config’ </p>
 <h3 id="pages-template"><a class="header" href="#pages-template">pages template</a></h3>
-<p>the app template name : 'layout/app' </p>
+<p>the app template name : ‘layout/app’ </p>
 <h3 id="hook-template"><a class="header" href="#hook-template">hook template</a></h3>
-<p>the hook template : 'hook'</p>
+<p>the hook template : ‘hook’</p>
 <h2 id="to-create-a-template-expired"><a class="header" href="#to-create-a-template-expired">To Create A Template Expired</a></h2>
 <p><code>deno run --allow-run oldguard/index.ts  template {subfoldername} {foldername} {filetype} {templatename}</code></p>
 <p><code>deno run --allow-run oldguard/index.ts  template server page strandard home</code>
@@ -251,6 +256,23 @@ and run
 
         
 
+        
+        <!-- Google Analytics Tag -->
+        <script type="text/javascript">
+            var localAddrs = ["localhost", "127.0.0.1", ""];
+
+            // make sure we don't activate google analytics if the developer is
+            // inspecting the book locally...
+            if (localAddrs.indexOf(document.location.hostname) === -1) {
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'G-F1WVF5JMD2', 'auto');
+                ga('send', 'pageview');
+            }
+        </script>
         
 
         
