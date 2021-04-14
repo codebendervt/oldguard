@@ -13,6 +13,8 @@ google-analytics = "G-F1WVF5JMD2"
 no-section-label = false
 git-repository-url = "https://github.com/sauveurXrawk/studio"
 git-repository-icon = "fa-github"
+cname = "studio.sauveur.cloud"
+input-404 = "not-found.md"
 
 
 [output.html.print]
