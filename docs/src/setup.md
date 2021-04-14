@@ -4,8 +4,7 @@
 > Note this is best used on a linux enviroment
 ### Requirements 
 
-The Deno runtime is required to run the old guard
-Linux
+The Deno runtime is required to run the the toolcbain
 
 ```bash
 curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL=/usr/local sh
