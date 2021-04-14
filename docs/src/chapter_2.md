@@ -2,7 +2,9 @@
 
 ## To Create A Template
 
-`npm run tool -- template`
+```bash
+npm run tool -- template
+```
 
 ## next.config.js template
 ### Deploy to Azure Static Web App
@@ -16,8 +18,12 @@ the app template name : 'layout/app'
 the hook template : 'hook'
 
 ## To Create A Template Expired
-`deno run --allow-run oldguard/index.ts  template {subfoldername} {foldername} {filetype} {templatename}`
+```bash 
+deno run --allow-run oldguard/index.ts  template {subfoldername} {foldername} {filetype} {templatename}
+```
 
-`deno run --allow-run oldguard/index.ts  template server page strandard home`
+```bash
+deno run --allow-run oldguard/index.ts  template server page strandard home
+```
 [{filetype}](./io/temp/templates)
 

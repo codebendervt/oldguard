@@ -6,9 +6,13 @@
 
 The Deno runtime is required to run the old guard
 Linux
-`curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL=/usr/local sh`
+```bash
+curl -fsSL https://deno.land/x/install/install.sh | sudo DENO_INSTALL=/usr/local sh
+```
 Windows
-`choco install deno`
+```bash
+choco install deno
+```
 
 To learn more about [Deno](https://deno.land/).   
 

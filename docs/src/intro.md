@@ -3,7 +3,9 @@
 
 This is the createChinaApp cli tool
 
-`git clone https://github.com/sauveurXrawk/studio.git ./oldguard`
+```bash
+git clone https://github.com/sauveurXrawk/studio.git ./oldguard
+```
 
 
 > This tool is still in development
