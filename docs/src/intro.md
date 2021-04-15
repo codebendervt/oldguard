@@ -21,9 +21,3 @@ git clone https://github.com/sauveurXrawk/studio.git ./oldguard
 - [ ] Create web app
 - [ ] New new dreams
 
-
-[Generated With](https://rust-lang.github.io/mdBook/index.html)
-
-[Emojis](https://gist.github.com/rxaviers/7360908)
-
-[Survey](https://insights.stackoverflow.com/survey/2020)

@@ -25,7 +25,7 @@ const engine = async () => {
 
             if (type == "components") {
 
-                let _import = `import ${capitalize(main)} from '../${main}/component' \n`
+                let _import = `import ${capitalize(main)} from './${main}/component' \n`
                 let _export = `export {${capitalize(main)}} \n`
 
                 const write = await Deno.writeTextFile("components/index.js", `${_import}${_export}`, { append: true });
