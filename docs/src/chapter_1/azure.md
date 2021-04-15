@@ -1,0 +1,1 @@
+# Azure Static Web App Setup
