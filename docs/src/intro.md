@@ -1,7 +1,7 @@
 ![The Old Guard Logo](banner.png)
 
 
-This is a cli tool 🤪
+This is a cli tool, giving you back control🤪
 
 ```bash
 git clone https://github.com/sauveurXrawk/studio.git ./oldguard

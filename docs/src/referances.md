@@ -10,3 +10,7 @@
 [Styling](https://tailwindcss.com/)
 
 [Headless UI](https://headlessui.dev/)
+
+[Storybook](https://storybook.js.org/docs/react/get-started/introduction)
+
+[Storybook deploy](https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/)

@@ -9,7 +9,7 @@ export default function Settings({ enabled, setEnabled,title,subtitle }) {
         <Popover className="relative w-full h-full max-w-sm ">
             {({ open }) => (
                 <>
-                    <Popover.Button className={`flex ${open ? "" : "p-2"} items-end`}>
+                    <Popover.Button className={`flex ${open ? "" : "p-2"} items-end focus:outline-none`}>
                         <DotsHorizontalIcon className="w-6" />
                         {/* <ChevronRightIcon
                             className={`w-4 ${open ? "transform rotate-90" : ""}`}
@@ -129,9 +129,10 @@ const Footer = ({ enabled, setEnabled }) => {
                     service.links().map((i, k) => {
 
                         return (
-                            <a href={i.url} className="flex mx-1">
+                            <a href={i.url} className="flex mx-1 items-center">
                                 <ExternalLinkIcon className="w-4 h-4" />
-                                {i.name}</a>
+                                {i.name}
+                            </a>
                         )
 
 
