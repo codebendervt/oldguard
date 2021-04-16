@@ -19,5 +19,5 @@ git clone https://github.com/sauveurXrawk/studio.git ./oldguard
 - [ ] packaging this in npm for ease of use maybe for now just cloning works(creating more easy way to pull cli)
 - [ ] Clean up code
 - [ ] Create web app
-- [ ] New new dreams
+- [ ] Need new dreams
 
