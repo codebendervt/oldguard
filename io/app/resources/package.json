@@ -7,7 +7,9 @@
     "build": "next build ",
     "start": "next start",
     "tool": "deno run --allow-run --allow-read --allow-env oldguard/index.ts local",
-    "test": "echo the test goes here"
+    "test": "echo the test goes here",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@headlessui/react": "^1.0.0",
@@ -22,10 +24,15 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@storybook/addon-actions": "^6.2.8",
+    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-links": "^6.2.8",
+    "@storybook/react": "^6.2.8",
     "autoprefixer": "^10.0.2",
+    "babel-loader": "^8.2.2",
     "file-loader": "^6.2.0",
-    "tailwindcss": "^2.0.1",
+    "postcss": "^8.1",
     "postcss-loader": "^4.0.3",
-    "postcss": "^8.1"
+    "tailwindcss": "^2.0.1"
   }
 }
