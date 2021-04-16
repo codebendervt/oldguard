@@ -130,7 +130,7 @@ const Footer = ({ enabled, setEnabled }) => {
 
                         return (
                             <a href={i.url} className="flex mx-1">
-                                <ExternalLinkIcon className="w-4" />
+                                <ExternalLinkIcon className="w-4 h-4" />
                                 {i.name}</a>
                         )
 
