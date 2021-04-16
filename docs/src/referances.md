@@ -7,3 +7,6 @@
 [Icons](https://heroicons.com/)
 
 [Survey](https://insights.stackoverflow.com/survey/2020)
+[Styling](https://tailwindcss.com/)
+
+[Headless UI](https://headlessui.dev/)

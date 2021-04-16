@@ -3,7 +3,6 @@ import { useRouter, useEffect,useState } from 'components'
 export default function Layout({ children, auth,dark,app }) {
 
     const router = useRouter();
-    const [isDark,setDark] = useState();
 
     useEffect(() => {
 
@@ -19,7 +18,12 @@ export default function Layout({ children, auth,dark,app }) {
 
     useEffect(() => {
 
-        //this is a shock to know that i can access local storage like this
+        if(dark){
+            localStorage.theme = 'dark'
+        }else{
+            localStorage.theme = 'light'
+        }
+
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
           } else {

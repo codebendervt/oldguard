@@ -6,19 +6,19 @@
     "dev": "next dev",
     "build": "next build ",
     "start": "next start",
-    "tool":"deno run --allow-run --allow-read --allow-env oldguard/index.ts local",
+    "tool": "deno run --allow-run --allow-read --allow-env oldguard/index.ts local",
     "test": "echo the test goes here"
   },
   "dependencies": {
-
-     "@babel/core": "^7.12.9",
-     "animate.css": "^4.1.1",
-     "faunadb": "^4.1.1",
+    "@headlessui/react": "^1.0.0",
+    "@heroicons/react": "^1.0.1",
+    "@babel/core": "^7.12.9",
+    "animate.css": "^4.1.1",
+    "faunadb": "^4.1.1",
     "next-pwa": "^5.0.0",
     "next": "10.0.5",
     "react": "17.0.1",
     "react-dom": "17.0.1"
-
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
