@@ -9,6 +9,6 @@
   - [Templates](./chapter_2.md)
 - [Engine](./chapter_4.md)
   - [Components](./chapter_4/components.md)
-    - [Components Sub](./chapter_4/components.md)
+    - [Components Sub](./chapter_4/settings.md)
   - [API](./chapter_4/api.md)
 - [Referances](./chapter_4.md)
