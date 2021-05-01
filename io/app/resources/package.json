@@ -20,6 +20,7 @@
     "next-pwa": "latest",
     "next": "latest",
     "react": "17.0.1",
+    "jsonwebtoken": "^8.5.1",
     "react-dom": "17.0.1"
   },
   "devDependencies": {

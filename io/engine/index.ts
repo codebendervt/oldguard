@@ -11,8 +11,8 @@ const engine = async () => {
         // console.log(`in folder ${Deno.cwd()}`)
         try {
 
-            let type = await sdk.prompt('Engine Name: ');
-            let main = await sdk.prompt(`${capitalize(type)} name: `);
+            let type = await sdk.prompt('Engine Name ');
+            let main = await sdk.prompt(`${capitalize(type)} name `);
 
             let url = type
             if (type == "api") {
@@ -21,7 +21,7 @@ const engine = async () => {
                 await sdk.CraeteFolder(`${url}/${main}`)
             }
 
-            await sdk.copyDirectory(`${directory}/${type}/${main}`, `${url}/${main}/`)
+            await sdk.copyDirectory(`${directory}/${type}/${main}`, `./${url}/${main}/`)
 
             if (type == "components") {
 
