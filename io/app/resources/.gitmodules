@@ -1,0 +1,3 @@
+[submodule "oldguard"]
+	path = oldguard
+	url = https://github.com/sauveurXrawk/studio.git

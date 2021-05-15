@@ -1,8 +1,14 @@
 const { Client } = require('@notionhq/client');
 
-// Initializing a client
-const notion = new Client({
-  auth: process.env.NOTION_TOKEN,
-});
+
+const notion = (key = process.env.NOTION_TOKEN ) => {
+
+  // Initializing a client
+  return new Client({
+    auth: key,
+  });
+
+}
+
 
 export default notion;
