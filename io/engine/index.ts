@@ -21,14 +21,14 @@ const engine = async () => {
                 await sdk.CraeteFolder(`${url}/${main}`)
             }
 
-            await sdk.copyDirectory(`${directory}/${type}/${main}`, `./${url}/${main}/`)
+            await sdk.copyDirectory(`${directory}/${type}/${main}`, `.engine/${url}/${main}/`)
 
             if (type == "components") {
 
-                let _import = `import ${capitalize(main)} from './${main}/component' \n`
+                let _import = `import ${capitalize(main)} from './${main}/engine/component' \n`
                 let _export = `export {${capitalize(main)}} \n`
 
-                const write = await Deno.writeTextFile("components/index.js", `${_import}${_export}`, { append: true });
+                const write = await Deno.writeTextFile("/engine/components/index.js", `${_import}${_export}`, { append: true });
 
             }
 

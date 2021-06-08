@@ -1,4 +1,4 @@
-import * as Component from 'components';
+import * as Component from 'engine/components';
 
 
 export default function Index() {

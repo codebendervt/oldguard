@@ -1,6 +1,8 @@
 import Template from '../io/temp/temp.ts'
 import App from '../io/app/index.ts'
 import Engine from '../io/engine/index.ts'
+import Update from '../io/update/index.ts'
+
 
 let isAppCreated: Boolean | undefined;
 
@@ -166,6 +168,9 @@ if (import.meta.main) {
       console.log("ready to configure components");
       Engine();
       // expected output: "Mangoes and papayas are $2.79 a pound."
+      break;
+    case 'update':
+      Update()
       break;
     default:
       console.log(`Sorry, you need to select and option checkout --help to find out what is availbile`);
