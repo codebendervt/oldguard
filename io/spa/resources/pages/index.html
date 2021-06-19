@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Index</title>
+
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+  </head>
+  <body>
+    <!-- <template id="nav">
+      <div class="nav">
+        <div class="w-1/2 flex text-black text-white">
+          <slot name="title"> title</slot>
+        </div>
+        <div class="w-1/2 flex text-black text-white">
+          <slot name="second"> title</slot>
+        </div>
+      </div>
+    </template> -->
+
+    <nav-header data-title="Index">
+      <span slot="title">hello world</span>
+      <span id="click-here" slot="menu">click change</span>
+    </nav-header>
+    <script src="../src/index.js"></script>
+  </body>
+</html>

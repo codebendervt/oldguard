@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+
+.hello {
+
+  background-color: black;
+}
+
+
+
+@tailwind utilities;
+
+
+@layer components {
+
+
+
+
+  .canvas_home {
+    @apply w-screen h-full flex flex-col p-0;
+  }
+
+  @import "./second/index.module.css";
+}

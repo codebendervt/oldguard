@@ -1,0 +1,8 @@
+
+.test-ski {
+  background-color: burlywood;
+}
+
+.nav {
+    @apply w-full h-12 bg-black flex;
+  }

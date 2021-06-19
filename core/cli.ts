@@ -1,5 +1,6 @@
 import Template from '../io/temp/temp.ts'
 import App from '../io/app/index.ts'
+import SPA from '../io/spa/index.ts'
 import Engine from '../io/engine/index.ts'
 import Update from '../io/update/index.ts'
 
@@ -149,7 +150,7 @@ if (import.meta.main) {
   switch (expr) {
     case 'spa':
       console.log("starting to create app...");
-      createApp();
+      SPA();
       break;
     case 'Server':
       console.log('Creating Server');
