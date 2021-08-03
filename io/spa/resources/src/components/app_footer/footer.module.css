@@ -1,0 +1,41 @@
+
+.app-slot{
+    @apply w-1/3 h-12 flex
+}
+
+.app-slot-container {
+    @apply w-full h-10 flex items-end  justify-center  
+}
+
+.icon-name-container {
+    @apply flex flex-col items-center bg-black pt-2 rounded-full
+}
+
+
+
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+
+    /* .app-slot-container {
+        @apply h-12 items-start
+    }
+    .app-slot{
+        @apply w-1/12 h-auto
+    } */
+    
+    
+
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+    .app-slot-container {
+        @apply h-12 items-start
+    }
+
+    .app-slot{
+        @apply w-1/12 h-auto
+    }
+}

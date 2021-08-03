@@ -1,20 +1,23 @@
-@import url('./font/Stawford/Strawford Roman Webfont/stylesheet.css');
-@import url('./font/Stawford/Strawford Italic Webfont/stylesheet.css');
 
-
-@tailwind base;
-@tailwind components;
-
+/* purgecss start ignore */
+@import url('/font/Noway/Noway Icons Webfont/Noway-Icons-webfont/stylesheet.css');
+@import url('/font/Stawford/Strawford Roman Webfont/stylesheet.css');
+@import url('/font/Stawford/Strawford Italic Webfont/stylesheet.css');
 
 
 a{
   font-family: 'Noway', sans-serif;
 }
 
+@font-face {
+  font-family: Noway;
+  src: url('/font/Noway/Noway Roman Webfont/Noway-Bold-webfont/noway-bold-webfont.ttf');
+}
+
+
 .font-default-title{
   font-family: 'strawfordblack', sans-serif
 }
-
 .font-secondary-title{
   font-family: 'strawfordblack_italic',sans-serif;
 }
@@ -53,30 +56,22 @@ a{
 }
 
 
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
 
+/* Medium (md) */
+@media (min-width: 768px) { 
 
-@tailwind utilities;
+ }
 
-
-@layer components {
-
-  .hide-scrollbar{
+/* Large (lg) */
+@media (min-width: 1024px) {
  
-    scrollbar-width: none;
-  }
+
+ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { 
   
-  .hide-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
-
-  .btn{
-    @apply w-full rounded bg-accent p-4 text-black
-  }
-  
-
-
-  .canvas_home {
-    @apply w-screen h-full flex flex-col p-0;
-  }
  
 }

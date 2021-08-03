@@ -1,18 +1,47 @@
-import 'components/nav'
+import { AppFooter, AppHeader, ReactDOM, useState, useEffect } from 'components';
+
+import './index.css'
+
+const App = () => {
+
+    const [refresh, setRefresh] = useState(false)
+
+    useEffect(() => {
+        console.log(window.location.pathname)
+
+       
+
+
+        return () => {
+
+        }
+    }, [])
 
 
 
-// will be importing th react package for more flexibility
+    return (
+        <div className="app-container">
 
-window.addEventListener('load', (event) => {
-    console.log('page is fully loaded');
-
-    document.querySelector('#click-here').addEventListener('click', () => {
-        console.log('I Am clicked')
-    });
+            <AppHeader refresh={setRefresh} />
 
 
-    console.log(doc)
-});
+            <div className="app-content-showcase hide-scrollbar">
+
+   
 
 
+            </div>
+
+
+
+            <AppFooter refresh={refresh} />
+
+        </div>
+
+    )
+}
+
+ReactDOM.render(
+    <App></App>,
+    document.getElementById('root')
+);

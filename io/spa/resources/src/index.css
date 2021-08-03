@@ -1,0 +1,52 @@
+
+
+.app-content {
+    @apply w-full h-full flex flex-col 
+}
+
+.app-container {
+    @apply w-full h-screen flex flex-col bg-black p-2
+}
+
+.app-content-showcase{
+    @apply flex flex-grow flex-col p-2 overflow-y-scroll;
+    scrollbar-width: none;
+}
+
+.app-content-showcase::-webkit-scrollbar {
+    display: none;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+    /* ... */
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* .app-content {
+        @apply justify-start max-w-lg
+    }
+
+    .app-container {
+        @apply  flex-col-reverse  
+    } */
+    
+
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+    
+    .app-container {
+        @apply  flex-col-reverse  
+    }
+
+    .app-content {
+        @apply justify-start max-w-lg
+    }
+}
