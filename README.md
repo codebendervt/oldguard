@@ -4,7 +4,7 @@ This is the createChinaApp cli tool
 
 `git clone https://github.com/sauveurXrawk/studio.git ./oldguard`
 
-[documentation](https://studio.sauveur.cloud/)
+[documentation](https://codebendervt.github.io/oldguard/)
 > This tool is still in development
 
 ### ToDo
